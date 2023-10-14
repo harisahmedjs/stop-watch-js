@@ -12,14 +12,14 @@ let time;
 let hours= 0
 start.addEventListener('click',()=>{
     time = setInterval(() => {
-      second +=30
+      second +=1
       div.innerHTML =second
       if ( second === 60) {
         min +=1
         minute.innerHTML = min
         second = 0
       } 
-      if (min === 3) {
+      if (min === 60) {
         hours += 1
         h.innerHTML = hours
         min = 0
