@@ -24,34 +24,38 @@ body{
     gap: 10px;
 }
 .container{
-    text-align: center;
-    
-    
+    display: flex;
+    /* text-align: center; */
+    gap: 35px;
+    margin-left: 37%;
 }
 #btn{
     background-color:rgb(227, 16, 16);
     color: white;
-    padding: 10px 20px 10px 20px ;
-    border-radius: 10px 15px 10px 15px;
+    padding: 10px 30px ;
+    border-radius: 10px;
     margin-right: .9%;
     font-size: large;
     cursor: pointer;
+    font-weight: 500;
     }#btn1{
         background-color:rgb(227, 16, 16);
         color: white;
-        padding: 10px 15px 10px 15px ;
-        border-radius: 5px 10px 5px 10px;
+        padding: 10px 30px ;
+        border-radius: 10px;
         margin-right: .9%;
         font-size: large;
         cursor: pointer;
+        font-weight: 500;
         }#btn2{
             background-color:rgb(227, 16, 16);
             color: white;
-            padding: 10px 20px 10px 20px ;
-            border-radius: 10px 15px 10px 15px;
+            padding: 10px 30px ;
+            border-radius: 10px;
             margin-right: .9%;
             font-size: large;
             cursor: pointer;
+            font-weight: 500;
         }
 .game{
     display: inline;

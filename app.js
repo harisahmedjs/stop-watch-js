@@ -7,15 +7,15 @@ const reset = document.querySelector('#btn2')
 
 
 let second = 0
-let min =0
+let min = 0 ;
 let time;
 let hours= 0
 start.addEventListener('click',()=>{
     time = setInterval(() => {
-      second +=1
+      second += 1
       div.innerHTML =second
       if ( second === 60) {
-        min +=1
+        min += 1
         minute.innerHTML = min
         second = 0
       } 
